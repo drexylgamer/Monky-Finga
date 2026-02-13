@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Monkey Middle Finger</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Click the Monkey!</h1>
+		<div class="monkey-container">
+			<div class="monkey" id="monkey">
+				<!-- Head -->
+				<div class="head">
+					<div class="hair"></div>
+					<!-- Eyes -->
+					<div class="eye left-eye">
+						<div class="eyeball">
+							<div class="pupil"></div>
+							<div class="shine"></div>
+						</div>
+					</div>
+					<div class="eye right-eye">
+						<div class="eyeball">
+							<div class="pupil"></div>
+							<div class="shine"></div>
+						</div>
+					</div>
+					<!-- Nose -->
+					<div class="nose"></div>
+					<!-- Mouth -->
+					<div class="mouth"></div>
+					<!-- Ears -->
+					<div class="ear left-ear">
+						<div class="ear-inner"></div>
+					</div>
+					<div class="ear right-ear">
+						<div class="ear-inner"></div>
+					</div>
+				</div>
+
+				<!-- Body -->
+				<div class="body">
+					<div class="torso">
+						<div class="chest"></div>
+						<div class="belly"></div>
+					</div>
+
+					<!-- Left Arm -->
+					<div class="arm left-arm">
+						<div class="upper-arm"></div>
+						<div class="forearm"></div>
+						<div class="hand left-hand">
+							<div class="finger finger-1"></div>
+							<div class="finger finger-2"></div>
+							<div class="finger finger-3"></div>
+						</div>
+					</div>
+
+					<!-- Right Arm (the one that moves) -->
+					<div class="arm right-arm" id="right-arm">
+						<div class="upper-arm"></div>
+						<div class="forearm"></div>
+						<div class="hand right-hand" id="right-hand">
+							<div class="finger finger-1"></div>
+							<div class="finger finger-mid" id="middle">
+								<div class="middle-finger"></div>
+							</div>
+							<div class="finger finger-3"></div>
+						</div>
+					</div>
+
+					<!-- Legs -->
+					<div class="leg left-leg">
+						<div class="thigh"></div>
+						<div class="calf"></div>
+						<div class="foot"></div>
+					</div>
+					<div class="leg right-leg">
+						<div class="thigh"></div>
+						<div class="calf"></div>
+						<div class="foot"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
