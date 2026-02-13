@@ -54,16 +54,7 @@ h1 {
 	left: 20px;
 	box-shadow: inset -8px -8px 15px rgba(0, 0, 0, 0.3), inset 3px 3px 8px rgba(255, 255, 255, 0.1);
 	z-index: 20;
-	overflow: hidden;
-}
-
-.hair {
-	position: absolute;
-	width: 100%;
-	height: 50%;
-	background: linear-gradient(to bottom, #5a4328, transparent);
-	border-radius: 50% 50% 0 0;
-	top: 0;
+	overflow: visible;
 }
 
 .eye {
